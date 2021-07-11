@@ -9,6 +9,7 @@
 可以 安装 IDEA，安装 JDK/Maven， IDEA 可以直接帮忙搞定。
 
 若想体验一波配环境的快感，就：⬇️
+
 首先，安装 java
 
 mac：
@@ -59,6 +60,10 @@ brew install mysqlworkbench
 ## 运行
 
 ### 后端部分
+
+在 mysql 自己创建 demo 数据库，user 表，并相应字段。
+
+在 `src/main/resources/application.propertiies` 文件内更换自己的 mysql 密码。
 
 IDEA 右上角 Run
 
